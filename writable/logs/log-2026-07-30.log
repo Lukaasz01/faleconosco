@@ -1,0 +1,5 @@
+CRITICAL - 2026-07-30 11:48:26 --> Argument 1 passed to CodeIgniter\CodeIgniter::__construct() must be an instance of Config\App, instance of Config\Paths given, called in C:\xampp74\htdocs\faleconosco\index.php on line 51
+#0 C:\xampp74\htdocs\faleconosco\index.php(51): CodeIgniter\CodeIgniter->__construct(Object(Config\Paths))
+#1 {main}
+CRITICAL - 2026-07-30 11:49:32 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 {main}

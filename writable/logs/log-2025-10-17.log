@@ -1,0 +1,38 @@
+CRITICAL - 2025-10-17 13:58:20 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 /var/www/html/faleconosco/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/faleconosco/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/faleconosco/system/CodeIgniter.php(797): class_exists()
+#5 /var/www/html/faleconosco/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/faleconosco/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/faleconosco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-10-17 14:34:53 --> Undefined index: email
+#0 /var/www/html/faleconosco/app/Controllers/Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/faleconosco/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /var/www/html/faleconosco/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/faleconosco/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/faleconosco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-10-17 14:34:57 --> Undefined index: email
+#0 /var/www/html/faleconosco/app/Controllers/Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/faleconosco/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /var/www/html/faleconosco/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/faleconosco/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/faleconosco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-10-17 14:35:08 --> Undefined index: email
+#0 /var/www/html/faleconosco/app/Controllers/Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/faleconosco/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /var/www/html/faleconosco/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/faleconosco/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/faleconosco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2025-10-17 14:35:36 --> Undefined index: email
+#0 /var/www/html/faleconosco/app/Controllers/Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/faleconosco/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /var/www/html/faleconosco/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/faleconosco/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/faleconosco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

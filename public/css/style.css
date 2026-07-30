@@ -1,0 +1,182 @@
+/* Cores */
+
+:root{
+    --medium-green:#00815A;
+    --bluish-green: #079c7e;
+    --grey: rgb(227, 230, 233);
+    --dark-white: rgb(249, 250, 252);
+}
+
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* BackGround Colors */
+
+.bg-medium-green{
+    background-color: var(--medium-green);
+}
+.bg-bluish-green{
+    background-color: var(--bluish-green);
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.bg-dark-white{
+    background-color: var(--dark-white);
+}
+
+/* Text Colors */
+
+.text-medium-green{
+    color: var(--medium-green);
+}
+.text-bluish-green{
+    color: var(--bluish-green);
+}
+
+/* Border Colors */
+.border-top-green{
+    border-top: 25px solid #00815A;
+}
+
+/* Definição de classe */
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.rounded-high{
+    border-radius: 20px;
+}
+
+.rounded-high-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.border-transparent{
+    border: transparent;
+}
+
+.outline-0{
+    outline: none;
+}
+
+.px-6{  
+    padding-left: 4rem ;
+    padding-right: 4rem;
+}
+
+.mt-6{
+    margin-top: 5rem;
+}
+
+.mx-550{
+    max-width: 550px;
+}
+
+.mh-40{
+    height: 40px;
+}
+
+/* Hovers Effects */
+
+.hover-green-to-white {
+  background-color: var(--bluish-green);
+  transition: background-color 1s ease-in-out;
+}
+
+.hover-green-to-white:hover {
+  background-color: var(--dark-white);
+  color: var(--bluish-green) !important;
+  transition: 0.5s ease-in-out;
+}
+
+/* CSS */
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.topic-point {
+  position: relative;
+  padding-left: 20px;
+}
+
+.topic-point::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #079c7e;
+  background-color: transparent;
+}
+
+.g-recaptcha {
+    transform: scale(0.85);
+    transform-origin: 0 0;
+}
+
+/* novalidate css formulário */
+
+
+.controleFormulario .form-control:valid,
+.controleFormulario .form-select:valid,
+.controleFormulario textarea:valid {
+    border-color: #ced4da !important;
+    background-image: none !important;
+    padding-right: 0.75rem !important;
+}
+
+.controleFormulario .form-control:invalid,
+.controleFormulario .form-select:invalid,
+.controleFormulario textarea:invalid {
+    border-color: #dc3545 !important;
+}
+
+.controleFormulario .form-control:focus:valid,
+.controleFormulario .form-select:focus:valid,
+.controleFormulario textarea:focus:valid {
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.controleFormulario .form-control:focus:invalid,
+.controleFormulario .form-select:focus:invalid,
+.controleFormulario textarea:focus:invalid {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
