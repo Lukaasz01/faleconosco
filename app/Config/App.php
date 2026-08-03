@@ -24,7 +24,7 @@ class App extends BaseConfig
      * @var string
      */
     // public $baseURL = 'https://faleconosco.cfm.org.br/';
-    public $baseURL = 'http://localhost:8074/faleconosco/public/';
+    public $baseURL = 'http://localhost:74/faleconosco/public/';
     
 
     /**
