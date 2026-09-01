@@ -1,0 +1,28 @@
+# Ambiente
+.env
+
+# Dependências
+/vendor/
+
+# Arquivos gerados em tempo de execução
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+writable/debugbar/*
+!writable/**/.gitkeep
+!writable/**/index.html
+
+# Testes
+tests/coverage*
+phpunit*.xml
+!phpunit.xml.dist
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
